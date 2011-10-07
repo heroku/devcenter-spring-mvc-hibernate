@@ -1,5 +1,7 @@
 This guide will show you how to deploy a Spring MVC Hibernate application to Heroku and bind it to the free Postgres database service.
 
+Sample code is available on [github](https://github.com/heroku/devcenter-spring-mvc-hibernate) along with this document. Edits and enhancements are welcome. Just fork the repository, make your changes and send us a pull request.
+
 ## Prerequisites
 
 * Java, Maven, Git, the Heroku client, and Foreman (as described in the [basic Java quickstart](/java))
