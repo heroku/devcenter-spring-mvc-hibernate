@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_petclinic_domain_Pet" items="${pets}" z="iulvWOoVf80k/N+YbRqe2uVac54=">
+        <table:table data="${pets}" id="l_com_springsource_petclinic_domain_Pet" path="/pets" z="gvs425syhOX//lJjxIylimFQflM=">
+            <table:column id="c_com_springsource_petclinic_domain_Pet_sendReminders" property="sendReminders" z="9OZRH4z6dmoKcOlx/Gs0++zdd/A="/>
+            <table:column id="c_com_springsource_petclinic_domain_Pet_name" property="name" z="G6BvYtcQqJffm1SbxmcOLJ3cVyY="/>
+            <table:column id="c_com_springsource_petclinic_domain_Pet_weight" property="weight" z="sDq86anRDnXzji8d7j+tb9X7coI="/>
+            <table:column id="c_com_springsource_petclinic_domain_Pet_owner" property="owner" z="JVMVGGcUrASz7s3PRARbLpFTaco="/>
+            <table:column id="c_com_springsource_petclinic_domain_Pet_type" property="type" z="DUgJN4Iq28UVFmg2KaA3V+V98Fw="/>
+        </table:table>
+    </page:list>
+</div>

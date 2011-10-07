@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_petclinic_domain_Pet" object="${pet}" path="/pets" z="FrMAP8iVoUnyo/I+XWaK7GumSjc=">
+        <field:display field="sendReminders" id="s_com_springsource_petclinic_domain_Pet_sendReminders" object="${pet}" z="RmixrIFl0IKQdwzx3LWi500GsNI="/>
+        <field:display field="name" id="s_com_springsource_petclinic_domain_Pet_name" object="${pet}" z="jifVeFdVtAczqHwRlAW8gynS40U="/>
+        <field:display field="weight" id="s_com_springsource_petclinic_domain_Pet_weight" object="${pet}" z="X/NCCB/JTd6q26u/CFM+giAZ23g="/>
+        <field:display field="owner" id="s_com_springsource_petclinic_domain_Pet_owner" object="${pet}" z="gkB4oAjvZoS122eiRb58IhKhNBw="/>
+        <field:display field="type" id="s_com_springsource_petclinic_domain_Pet_type" object="${pet}" z="brGTntbyB66uv79OYo3quRHblKU="/>
+    </page:show>
+</div>

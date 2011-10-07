@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_petclinic_domain_Visit" items="${visits}" z="gvjLPJ+GDknRTQjZOcGc6wR9ZAw=">
+        <table:table data="${visits}" id="l_com_springsource_petclinic_domain_Visit" path="/visits" z="Q4Zwy4OZhpo16BURZSSsSErsugQ=">
+            <table:column id="c_com_springsource_petclinic_domain_Visit_description" property="description" z="oIZKNzt3PQHB+Y+HIuyxnrtfcs0="/>
+            <table:column date="true" dateTimePattern="${visit_visitdate_date_format}" id="c_com_springsource_petclinic_domain_Visit_visitDate" property="visitDate" z="CA20RBDHzYv0UiuV6fJ6pJdVyYA="/>
+            <table:column id="c_com_springsource_petclinic_domain_Visit_pet" property="pet" z="Hd6NtCHzNtr2vFHtJNq7mpveZ7Q="/>
+            <table:column id="c_com_springsource_petclinic_domain_Visit_vet" property="vet" z="OmSFc9i42p1M9Yulmat2fdCnntc="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_petclinic_domain_Owner" items="${owners}" z="HNdIVMQBoqbz7hi0/vp+qqU8Nww=">
+        <table:table data="${owners}" id="l_com_springsource_petclinic_domain_Owner" path="/owners" z="cEQFC2rTMmyjCOpZyzGuOmA0SI8=">
+            <table:column id="c_com_springsource_petclinic_domain_Owner_firstName" property="firstName" z="mUq6IJCsASjikBLDJPMNaMOXwmM="/>
+            <table:column id="c_com_springsource_petclinic_domain_Owner_lastName" property="lastName" z="0BM+r5PNESCMEstUDBArB64nRA8="/>
+            <table:column id="c_com_springsource_petclinic_domain_Owner_address" property="address" z="t9CIN1dF5jCsHFxqpLrK+v+uLYk="/>
+            <table:column id="c_com_springsource_petclinic_domain_Owner_city" property="city" z="czB2fxTWMtVqfUKL4s9VTZAW36s="/>
+            <table:column id="c_com_springsource_petclinic_domain_Owner_telephone" property="telephone" z="p5ycpujH71NWwVotXc/n/Mk5LLw="/>
+            <table:column id="c_com_springsource_petclinic_domain_Owner_homePage" property="homePage" z="j1eranCJTVoYWFvclubUI2Acg4g="/>
+        </table:table>
+    </page:list>
+</div>
