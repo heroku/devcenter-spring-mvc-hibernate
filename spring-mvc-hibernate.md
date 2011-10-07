@@ -16,7 +16,7 @@ If you don't already have a Spring MVC Hibernate app, the easiest way to create 
 If you don't want to install Spring Roo, you can clone the sample app:
 
     :::term
-    $ git clone https://github.com/jesperfj/spring-roo-petclinic.git petclinic
+    $ git clone https://github.com/heroku/devcenter-spring-mvc-hibernate.git 
     Cloning into petclinic...
     remote: Counting objects: 205, done.
     remote: Compressing objects: 100% (100/100), done.
@@ -24,7 +24,12 @@ If you don't want to install Spring Roo, you can clone the sample app:
     Receiving objects: 100% (205/205), 98.55 KiB, done.
     Resolving deltas: 100% (93/93), done.
 
-If you do this, skip forward to "Modify Database Configuration".
+This will check out the completed app. To step back to the starting point, do:
+
+    :::term
+    $ git revert starting-point
+
+Now you can skip forward to "Modify Database Configuration".
 
 ### Option 2. Create the App Using Spring Roo
 
