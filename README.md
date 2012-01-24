@@ -4,10 +4,10 @@ Sample code is available on [github](https://github.com/heroku/devcenter-spring-
 
 ## Prerequisites
 
-* Java, Maven, Git, the Heroku client, and Foreman (as described in the [basic Java quickstart](/java))
+* Java, Maven, Git, and the Heroku client (as described in the [basic Java quickstart](/java))
 * An installed version of [Postgres](http://www.postgresql.org/) to test locally
 
-## Create a Spring MVC Hibernate app
+## Create a Java App That Uses Spring MVC and Hibernate
 
 If you don't already have a Spring MVC Hibernate app, the easiest way to create one is with Spring Roo. Spring Roo is a RAD tool that lets you quickly build Spring MVC applications with a complete model, view and controller layer, including relational database integration.
 
@@ -133,7 +133,7 @@ Jetty Runner lets you easily execute your web app as a standard Java application
         </executions>
     </plugin>
 
-## Declare Process Types With Foreman/Procfile
+## Declare Process Types in a Procfile
 
 You declare how you want your application executed in `Procfile` in the project root. Create this file with a single line:
 
@@ -166,19 +166,18 @@ Let's run the app locally first to test that it all works. You must have a Postg
     [INFO] Final Memory: 9M/81M
     [INFO] ------------------------------------------------------------------------
 
-### Start Your App With Foreman/Procfile
+### Start Your App
+
+<div class="callout" markdown="1">
+Note: you can also start your app using foreman to execute the Procfile. [Read more about foreman and procfiles](http://devcenter.heroku.com/articles/procfile).
+</div>
 
     :::term
-    $ foreman start
-    20:57:03 web.1     | started with pid 98396
-    20:57:04 web.1     | 2011-08-29 20:57:04.272:INFO::Runner
-    ...
-    20:57:10 web.1     | 2011-08-29 20:57:10,259 [main] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'petclinic': initialization completed in 661 ms
-    20:57:10 web.1     | 2011-08-29 20:57:10.280:INFO::Started SelectChannelConnector@0.0.0.0:5000 STARTING
+    $ java -jar target/dependency/jetty-runner.jar target/*.war
 
 ### Test it
 
-Go to <http://localhost:5000> and test it out by creating a new record.
+Go to <http://localhost:8080> and test it out by creating a new record.
 
 ## Deploy to Heroku/Cedar
 
