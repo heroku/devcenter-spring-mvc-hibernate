@@ -377,7 +377,7 @@
     <dependency>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>8.4-702.jdbc3</version>
+            <version>9.1-901-1.jdbc4</version>
             <classifier/>
         </dependency>
     </dependencies>
