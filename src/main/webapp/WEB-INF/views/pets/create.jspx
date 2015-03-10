@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_springsource_petclinic_domain_Pet" modelAttribute="pet" path="/pets" render="${empty dependencies}" z="lgvEyAlAYOudDmaPjwU0ABseTIk=">
+        <field:checkbox field="sendReminders" id="c_com_springsource_petclinic_domain_Pet_sendReminders" z="uPpMX+IWb0KONpvd11fpG8x4/4Q="/>
+        <field:input field="name" id="c_com_springsource_petclinic_domain_Pet_name" min="1" required="true" z="ZY+k75JeSo9RmejYZRFNIvs2aBg="/>
+        <field:input field="weight" id="c_com_springsource_petclinic_domain_Pet_weight" min="0" required="true" validationMessageCode="field_invalid_number" z="cOD5zE/z7gy+RZu5kVSPuxCa+/I="/>
+        <field:select field="owner" id="c_com_springsource_petclinic_domain_Pet_owner" itemValue="id" items="${owners}" path="/owners" z="fGzswAP4XXvhPhowJKsRVve929c="/>
+        <field:select field="type" id="c_com_springsource_petclinic_domain_Pet_type" items="${pettypes}" path="pettypes" required="true" z="+hDCnUp+Y+A1RlT+AjH07sgipOo="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_springsource_petclinic_domain_Pet" render="${not empty dependencies}" z="kThDNIW+69h9nI/69ynY1WyUieo="/>
+</div>

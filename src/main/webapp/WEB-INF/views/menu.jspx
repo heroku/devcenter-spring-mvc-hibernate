@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_owner" z="Zth5UxnSe51JiEP87JF7+ETwetY=">
+            <menu:item id="i_owner_new" messageCode="global_menu_new" url="/owners?form" z="/hKA4qUEs5O+bA2Hcejn43+TrE0="/>
+            <menu:item id="i_owner_list" messageCode="global_menu_list" url="/owners?page=1&amp;size=${empty param.size ? 10 : param.size}" z="G3vxhcyuViA2OtRCffsEWTpUSwY="/>
+        </menu:category>
+        <menu:category id="c_vet" z="wa6Q7tmm6MyZxmpRtd26ztlrtjw=">
+            <menu:item id="i_vet_new" messageCode="global_menu_new" url="/vets?form" z="7SPL5mtz1KF01GZo+EnUISwt3oM="/>
+            <menu:item id="i_vet_list" messageCode="global_menu_list" url="/vets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="wUkAsMbGxBlsNtUKrxD1iEBstxA="/>
+        </menu:category>
+        <menu:category id="c_pet" z="DRAsrgINsuHtkm0yg5t8/m7TNIY=">
+            <menu:item id="i_pet_new" messageCode="global_menu_new" url="/pets?form" z="SwmuMoL7UBbDU/gqHy+t5Tl0Ins="/>
+            <menu:item id="i_pet_list" messageCode="global_menu_list" url="/pets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mOobFCWrN51ciSswf5mwRVyM21s="/>
+            <menu:item id="fi_pet_nameandweight" messageCode="global_menu_find" url="/pets?find=ByNameAndWeight&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="UgD0TmT2Vb6jGJyQ7MTycLQY/f0="/>
+            <menu:item id="fi_pet_owner" messageCode="global_menu_find" url="/pets?find=ByOwner&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="SrwdROSq1pPJou69OwjlGAgwLvA="/>
+            <menu:item id="fi_pet_sendremindersandweightlessthan" messageCode="global_menu_find" url="/pets?find=BySendRemindersAndWeightLessThan&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="oHprzCsVPAauY6c5CLTGeNeJBi0="/>
+            <menu:item id="fi_pet_typeandnamelike" messageCode="global_menu_find" url="/pets?find=ByTypeAndNameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="ewydcyY4Z5HQlb5zmOSmFUScf1g="/>
+        </menu:category>
+        <menu:category id="c_visit" z="iaino2Fy1CyDOR5qmT6ONhpqwvo=">
+            <menu:item id="i_visit_new" messageCode="global_menu_new" url="/visits?form" z="0LoeAwF9ujO4MwWB15VCJlttfPs="/>
+            <menu:item id="i_visit_list" messageCode="global_menu_list" url="/visits?page=1&amp;size=${empty param.size ? 10 : param.size}" z="TJ79U861RxuaXhyQkOuYm2bQgoY="/>
+            <menu:item id="fi_visit_descriptionandvisitdate" messageCode="global_menu_find" url="/visits?find=ByDescriptionAndVisitDate&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="HOdJYJjL/YoLqWEiNrnpVO322Bs="/>
+            <menu:item id="fi_visit_descriptionlike" messageCode="global_menu_find" url="/visits?find=ByDescriptionLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="PanntPcDUyq18o5mzR356Au39gc="/>
+            <menu:item id="fi_visit_visitdatebetween" messageCode="global_menu_find" url="/visits?find=ByVisitDateBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="zm6BmAvoyqXTqUKi/DNLM/F6SmA="/>
+        </menu:category>
+        <menu:category id="c_seleniumtests" z="PPLMd2yNB6/LSbjIWogAacRPU+Q=">
+            <menu:item id="si_seleniumtests_test" messageCode="selenium_menu_test_suite" url="/resources/selenium/test-suite.xhtml" z="wwunW/IPDcunN97u41MvMJZQ2to="/>
+        </menu:category>
+    </menu:menu>
+</div>

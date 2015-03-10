@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="visits/list">
+        <put-attribute name="body" value="/WEB-INF/views/visits/list.jspx"/>
+    </definition>
+<definition extends="default" name="visits/show">
+        <put-attribute name="body" value="/WEB-INF/views/visits/show.jspx"/>
+    </definition>
+<definition extends="default" name="visits/create">
+        <put-attribute name="body" value="/WEB-INF/views/visits/create.jspx"/>
+    </definition>
+<definition extends="default" name="visits/update">
+        <put-attribute name="body" value="/WEB-INF/views/visits/update.jspx"/>
+    </definition>
+<definition extends="default" name="visits/findVisitsByDescriptionAndVisitDate">
+        <put-attribute name="body" value="/WEB-INF/views/visits/findVisitsByDescriptionAndVisitDate.jspx"/>
+    </definition>
+<definition extends="default" name="visits/findVisitsByDescriptionLike">
+        <put-attribute name="body" value="/WEB-INF/views/visits/findVisitsByDescriptionLike.jspx"/>
+    </definition>
+<definition extends="default" name="visits/findVisitsByVisitDateBetween">
+        <put-attribute name="body" value="/WEB-INF/views/visits/findVisitsByVisitDateBetween.jspx"/>
+    </definition>
+</tiles-definitions>

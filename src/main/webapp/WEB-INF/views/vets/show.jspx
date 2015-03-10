@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_petclinic_domain_Vet" object="${vet}" path="/vets" z="ihnequ3Rzj4JyZgPlz7HS6nGsrE=">
+        <field:display field="firstName" id="s_com_springsource_petclinic_domain_Vet_firstName" object="${vet}" z="gQQX5H0W6mDwbySkm/x15IFY/z4="/>
+        <field:display field="lastName" id="s_com_springsource_petclinic_domain_Vet_lastName" object="${vet}" z="eDUJ8VvetrrMwVEbXtVnpZQQD6M="/>
+        <field:display field="address" id="s_com_springsource_petclinic_domain_Vet_address" object="${vet}" z="pz7NUidU27WHsjOM5eaF52OX8xg="/>
+        <field:display field="city" id="s_com_springsource_petclinic_domain_Vet_city" object="${vet}" z="wsC9O8n4PTJOPKZ1CJn7abeWaIo="/>
+        <field:display field="telephone" id="s_com_springsource_petclinic_domain_Vet_telephone" object="${vet}" z="4n82R512oid2waWmDJ8vOL1yr+s="/>
+        <field:display field="homePage" id="s_com_springsource_petclinic_domain_Vet_homePage" object="${vet}" z="hvCIVMSzrSWr9U+NvZIIA1c0wQg="/>
+        <field:display field="email" id="s_com_springsource_petclinic_domain_Vet_email" object="${vet}" z="67QK8p2N6odpid8R8SRrZFFycgQ="/>
+        <field:display date="true" dateTimePattern="${vet_birthday_date_format}" field="birthDay" id="s_com_springsource_petclinic_domain_Vet_birthDay" object="${vet}" z="wut4Eqnz13TTuBupE1ge5DjvWsI="/>
+        <field:display calendar="true" dateTimePattern="${vet_employedsince_date_format}" field="employedSince" id="s_com_springsource_petclinic_domain_Vet_employedSince" object="${vet}" z="x81LbLDJKYqHFyphwUi/QkrTZNA="/>
+        <field:display field="specialty" id="s_com_springsource_petclinic_domain_Vet_specialty" object="${vet}" z="Fgdd7Giap9QqGKzWVQnTLKhM2Aw="/>
+    </page:show>
+</div>

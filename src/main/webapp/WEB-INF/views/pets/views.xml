@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="pets/list">
+        <put-attribute name="body" value="/WEB-INF/views/pets/list.jspx"/>
+    </definition>
+<definition extends="default" name="pets/show">
+        <put-attribute name="body" value="/WEB-INF/views/pets/show.jspx"/>
+    </definition>
+<definition extends="default" name="pets/create">
+        <put-attribute name="body" value="/WEB-INF/views/pets/create.jspx"/>
+    </definition>
+<definition extends="default" name="pets/update">
+        <put-attribute name="body" value="/WEB-INF/views/pets/update.jspx"/>
+    </definition>
+<definition extends="default" name="pets/findPetsByNameAndWeight">
+        <put-attribute name="body" value="/WEB-INF/views/pets/findPetsByNameAndWeight.jspx"/>
+    </definition>
+<definition extends="default" name="pets/findPetsByOwner">
+        <put-attribute name="body" value="/WEB-INF/views/pets/findPetsByOwner.jspx"/>
+    </definition>
+<definition extends="default" name="pets/findPetsBySendRemindersAndWeightLessThan">
+        <put-attribute name="body" value="/WEB-INF/views/pets/findPetsBySendRemindersAndWeightLessThan.jspx"/>
+    </definition>
+<definition extends="default" name="pets/findPetsByTypeAndNameLike">
+        <put-attribute name="body" value="/WEB-INF/views/pets/findPetsByTypeAndNameLike.jspx"/>
+    </definition>
+</tiles-definitions>

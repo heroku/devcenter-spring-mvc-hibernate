@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<link href="http://localhost:8080/" rel="selenium.base"/>
+<title>Selenium test for PetController</title>
+</head>
+<body>
+    <table border="1" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td colspan="3" rowspan="1">Selenium test for PetController</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+                    <td>open</td>
+                    <td>http://localhost:8080/petclinic/pets?form&amp;lang=en_US</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_sendReminders_id</td>
+                    <td>false</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_name_id</td>
+                    <td>someName1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_weight_id</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>clickAndWait</td>
+                    <td>//input[@id = 'proceed']</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_springsource_petclinic_domain_Pet_sendReminders_sendReminders_id</td>
+                    <td>false</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_springsource_petclinic_domain_Pet_name_name_id</td>
+                    <td>someName1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_springsource_petclinic_domain_Pet_weight_weight_id</td>
+                    <td>0.0</td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>
